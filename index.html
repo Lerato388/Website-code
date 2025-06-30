@@ -1,0 +1,125 @@
+<!-- Creating a homepage using html for my website swapify  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Swapify | Home</title>
+  <link rel="stylesheet" href="style.css?v=2">
+  <!--<link rel="stylesheet" href="style.css" />-->
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="top-bar">
+  <div class="top-left">Welcome to Swapify, A Modern furniture store for your everyday needs and Home decor.       Shop from our wide selection of stylish and affordable home decor items.      Follow us on All our Socials</div>
+</div>
+<header class="header-main">
+  <div class="header-container">
+    <form action="products.php" method="GET" class="search-bar">
+      <input type="text" name="search" placeholder="Search products..." required>
+      <button type="submit"><i class="fas fa-search"></i></button>
+    </form>
+
+    <div class="logo">
+      <h1><a href="index.html">Swapify</a></h1>
+    </div>
+
+    <div class="icons">
+      <a href="wishlist.html" title="Wishlist"><i class="fas fa-heart"></i></a>
+      <a href="cart-page.php" title="Cart"><i class="fas fa-shopping-cart"></i></a>
+      <a href="logout.php">Logout</a>
+      <a href="sell-my-products.html">SMP</a>
+    </div>
+  </div>
+</header>
+<nav class="main-nav">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="products.php">Products</a></li>
+    <li><a href="register.html">register</a></li>
+    <li><a href="wishlist.html"><i class="fas fa-heart"></i></a>
+    <li><a href="login.html"><i></i>Sign in</a></li>
+  </ul>
+</nav>
+<div class="promo-banner">
+  <a href="products.php">
+    30% off selected items <i class="fas fa-arrow-right"></i>
+  </a>
+</div>
+<!-- Introduction the the store whats its about and what we sell  -->
+<main>
+  <section>
+    <h2>Discover Your Everyday Homeware Products</h2>
+    <p>Shop from our wide selection of stylish and affordable home decor items.</p>
+    <a href="products.html" class="btn">Browse Now</a>
+    </section>
+<div class="slideshow-wrapper">
+  <!-- First Slideshow -->
+  <div class="img_slider">
+    <figure class="slideshow1">
+      <div class="my_slide"><img src="images/ottoman.jpg" /></div>
+      <div class="my_slide"><img src="images/bowl.jpg" /></div>
+      <div class="my_slide"><img src="images/orug.jpg" /></div>
+    </figure>
+  </div>
+
+  <!-- Second Slideshow -->
+  <div class="img_slider">
+    <figure class="slideshow2">
+      <div class="my_slide"><img src="images/plates.jpg" /></div>
+      <div class="my_slide"><img src="images/bed.jpg" /></div>
+      <div class="my_slide"><img src="images/vase3.jpg" /></div>
+    </figure>
+  </div>
+
+  <!-- Third Slideshow -->
+  <div class="img_slider">
+    <figure class="slideshow3">
+      <div class="my_slide"><img src="images/cup.jpg" /></div>
+      <div class="my_slide"><img src="images/doglamp.jpg" /></div>
+      <div class="my_slide"><img src="images/bench.jpg" /></div>
+    </figure>
+  </div>
+</main>
+<section class="mood-board">
+  <h2 class="mood-title">Mood Board Ideas</h2>
+  <div class="mood-images">
+    <img src="images/Moodboard_1.jpg" alt="Mood Idea 1">
+    <img src="images/Moodboard_2.jpg" alt="Mood Idea 2">
+    <img src="images/Moodboard_3.jpg" alt="Mood Idea 3">
+    <img src="images/Moodboard_4.jpg" alt="Mood Idea 4">
+
+  </div>
+</section>
+
+<section class="newsletter">
+  <div class="newsletter-content">
+    <div class="newsletter-text">
+      <h3>Sign Up for Email</h3>
+      <p>Receive early access to new arrivals, sales, exclusive content, events and much more!</p>
+      <small>
+        By signing up, you agree to receive Swapify promotions and commercial messages.
+      </small>
+    </div>
+    <form class="newsletter-form">
+      <label for="email">Email Address*</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</section>
+<!-- This footer will show professionalism and looks similar to a real e-commerce website  -->
+<footer>
+  <p>&copy; 2025 Swapify. All rights reserved. 
+     | <a href="faqs.html">FAQs</a> 
+     | <a href="terms.html">Terms & Conditions</a> 
+     | <a href="terms.html">Privacy Policy</a>
+     | <a href="admin_review.php">Admin</a>
+  </p>
+</footer>
+</body>
+</html>
